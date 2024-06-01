@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Photo App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Dog photo App</h1>
+      <section>
+        <h2>Dog photos</h2>
+        <p>See more<a target="_blank" href="https://www.pexels.com/search/dog/"
+            >dog photos</a>in our gallery.</p>
+            
+        <a target="_blank" href="https://www.pexels.com/search/dog/">
+          <img src="asset/dog.jpg" width="300" height="200" alt="" />
+        </a>
+      </section>
+
+      <section>
+        <h2>Dog Lists</h2>
+        <h3>Things dogs love:</h3>
+        <ul>
+          <li>Blue Buffalo Life Protection</li>
+          <li>Purina Pro Plan</li>
+          <li>Hill's Science Diet</li>
+          <li>Orijen Original</li>
+        </ul>
+        <figure>
+          <img src="asset/Dog food.png" alt="" />
+          <figcaption>Dog <em>love</em> Orijen Original</figcaption>
+        </figure>
+        <h3>Top 4 things dogs hate</h3>
+        <ol>
+          <li>Loud Noises</li>
+          <li>Being Left Alone</li>
+          <li>Strong Scents</li>
+          <li>Uncomfortable Situations</li>
+        </ol>
+        <figure>
+          <img src="asset/dogs hate.jpg" width="300" alt="" />
+          <figcaption>Dog <strong>hate</strong> loud noises</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h1>Dog Form</h1>
+        <fieldset>
+          <legend>Is your dog an indoor or outdoor dog?</legend>
+          <label for="indoor">
+            <input type="radio" name="indoor-outdoor" id="indoor" />Indoor
+          </label>
+          <label for="">
+            <input type="radio" name="indoor-outdoor" id="outdoor" />Outdoor
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>What's your dog's personality?</legend>
+          <label for="">
+            <input type="checkbox" name="personality" id="" />Loving
+          </label>
+          <label for="">
+            <input type="checkbox" name="personality" id="" />Lazy
+          </label>
+          <label for="">
+            <input type="checkbox" name="personality" id="" />Energetic
+          </label>
+        </fieldset>
+        <br />
+        <input type="text" placeholder="dog photo URL" /> <br />
+        <br />
+        <button>Submit</button>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; No Copyright</p>
+    </footer>
+  </body>
+</html>
